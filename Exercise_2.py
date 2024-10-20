@@ -1,7 +1,7 @@
-// Time Complexity :
-# // Space Complexity :
-# // Did this code successfully run on Leetcode :
-# // Any problem you faced while coding this :
+# // Time Complexity : Mostly O(1) except for show function which is O(n)
+# // Space Complexity : O(n) since items go in stack dynamically with n
+# // Did this code successfully run on Leetcode :NA
+# // Any problem you faced while coding this :NA
 class Node:
     def __init__(self, data):
        self.data = data
