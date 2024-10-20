@@ -6,15 +6,18 @@ class Node:
  
 class Stack:
     def __init__(self):
-        
+        self.items = []
     def push(self, data):
-        
+        self.items.append(data)
     def pop(self):
-        
+        if self.items == []:
+            return None
+        return self.items.pop()
+
 a_stack = Stack()
 while True:
     #Give input as string if getting an EOF error. Give input like "push 10" or "pop"
-    print('push <value>')
+    print('push <input>')
     print('pop')
     print('quit')
     do = input('What would you like to do? ').split()
