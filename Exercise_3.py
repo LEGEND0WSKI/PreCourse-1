@@ -1,3 +1,7 @@
+# // Time Complexity :  O(n) mostly since we are iterating in most cases
+# // Space Complexity : O(n) because every node references another node
+# // Did this code successfully run on Leetcode :NA
+# // Any problem you faced while coding this : No
 class ListNode:
     """
     A node in a singly-linked list.

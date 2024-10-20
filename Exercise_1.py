@@ -1,3 +1,7 @@
+# // Time Complexity : for most functions O(1) and for show function O(n)
+# // Space Complexity : O(n) 
+# // Did this code successfully run on Leetcode : NA
+# // Any problem you faced while coding this : No
 class myStack:
   #Please read sample.java file before starting.
   #Kindly include Time and Space complexity at top of each file
