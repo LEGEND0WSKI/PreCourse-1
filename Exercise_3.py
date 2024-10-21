@@ -65,7 +65,7 @@ class SinglyLinkedList:
                 return
             current = current.next
 
-# Testing
+# Testing TSC
 sklist = SinglyLinkedList()
 sklist.append(1)
 sklist.append(2)
